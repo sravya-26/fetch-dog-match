@@ -3,8 +3,8 @@
 
 ## 🚀 Live Demo & Code
 
-- 🔗 **Live Site:** [https://your-deployment-link.com](https://your-deployment-link.com)
-- 📂 **GitHub Repo:** [https://github.com/your-username/fetchafriend](https://github.com/your-username/fetchafriend)
+- 🔗 **Live Site:** [https://fetch-dog-match.vercel.app/]
+- 📂 **GitHub Repo:** [https://github.com/sravya-26/fetchafriend]
 
 ### ✔️ General Functionality
 
@@ -60,9 +60,17 @@
 ## 🧪 Running Locally
 
 ```bash
-git clone https://github.com/sravya-26/fetchafriend
-cd fetchafriend
+# Clone the repository
+git clone https://github.com/sravya-26/fetch-dog-match
+cd fetch-dog-match
+
+# Install dependencies
 npm install
+
+# Install confetti package
+npm install canvas-confetti
+
+# Start the app
 npm start
 
 
@@ -100,3 +108,4 @@ npm start
 📬 Contact
 Created by Sravya Koyi
 LinkedIn URL - https://www.linkedin.com/in/sravyakoyi/
+email address - sravyakoyi26@gmail.com
