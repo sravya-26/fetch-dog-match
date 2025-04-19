@@ -4,7 +4,7 @@
 ## 🚀 Live Demo & Code
 
 - 🔗 **Live Site:** [https://fetch-dog-match.vercel.app/]
-- 📂 **GitHub Repo:** [https://github.com/sravya-26/fetchafriend]
+- 📂 **GitHub Repo:** (https://github.com/sravya-26/fetch-dog-match)
 
 ### General Functionality
 
