@@ -1,0 +1,117 @@
+.login-page {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #FFB400;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 10;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 30s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .login-layout {
+    display: flex;
+    height: 100%;
+    margin-top: 40px; /* space for marquee */
+  }
+  
+  .login-image {
+    flex: 1;
+    background-image: url("https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .login-form-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .login-form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    z-index: 5;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    padding: 12px;
+    background-color: #70542f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #5f4214;
+  }
+  
+  /* 📱 Mobile */
+  @media (max-width: 768px) {
+    .login-layout {
+      flex-direction: column;
+    }
+  
+    .login-image {
+      height: 40vh;
+    }
+  
+    .login-form-wrapper {
+      height: auto;
+      padding: 30px 20px;
+    }
+  }
+  
