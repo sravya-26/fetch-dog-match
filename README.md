@@ -1,4 +1,4 @@
-# 🐾 FetchAFriend
+# FetchAFriend
 **FetchAFriend** is a dog adoption web app built using React and the Fetch Frontend Take-Home API. It allows users to search, filter, and adopt dogs from a shelter-like catalog with fun interactive features like bark sounds, confetti on match, and personalized search experiences.
 
 ## 🚀 Live Demo & Code
@@ -6,7 +6,7 @@
 - 🔗 **Live Site:** [https://fetch-dog-match.vercel.app/]
 - 📂 **GitHub Repo:** [https://github.com/sravya-26/fetchafriend]
 
-### ✔️ General Functionality
+### General Functionality
 
 - **Login page** – user provides name and email to authenticate.
 - **Authenticated requests** – using `withCredentials: true`.
@@ -18,7 +18,7 @@
 - **Favorites** – add/remove dogs to a favorites list.
 - **Matching Feature** – find your perfect match using `/dogs/match`.
 
-## ✨ Extra Features Implemented
+## Extra Features Implemented
 
 | Feature                         | Description                                                             |
 |-------------------------------|---------------------------------------------------------------------------|
@@ -46,7 +46,7 @@
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React.js
 - **HTTP Requests:** Axios
@@ -57,7 +57,7 @@
 - **Deployment:** Vercel
 
 
-## 🧪 Running Locally
+## Running Locally
 
 ```bash
 # Clone the repository
