@@ -30,7 +30,7 @@
 | Fully Responsive          | Designed to work seamlessly on mobile and desktop.                         |
 | Robust Validation         | ZIP code and age filters are validated with clear error messages.          |
 | Scroll to Match           | Smooth scroll to matched dog card.                                         |
-| Clear Filters Button      | Resets all active filters instantly. (optional if implemented)             |
+| Clear Filters Button      | Resets all active filters instantly.             |
 
 
 ## Concepts Used
